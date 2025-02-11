@@ -16,9 +16,10 @@ dependencies:
   cupertino_icons: ^1.0.8
 
   get:
-  # cloud_firestore: 
-  # firebase_core: 
-  # firebase_storage: 
+  cloud_firestore: 
+  firebase_core: 
+  firebase_storage: 
+  carousel_slider:
 
 
 dev_dependencies:

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fsdramjan/src/service/configs/appColors.dart';
-import 'package:fsdramjan/src/service/helpers/hexColor.dart';
  
 class WebHeaderTabTextService extends StatelessWidget {
   final Widget child;
@@ -16,7 +15,7 @@ class WebHeaderTabTextService extends StatelessWidget {
     SystemChrome.setApplicationSwitcherDescription(
         ApplicationSwitcherDescription(
       label: headerText,
-      primaryColor: HexColor(Appcolors.primaryColor).value,
+      primaryColor: Appcolors.primaryColor.value,
     ));
     return child;
   }

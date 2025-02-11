@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "670558012879",
+    "project_id": "quickshop-80a39",
+    "storage_bucket": "quickshop-80a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670558012879:android:c2125d7895e822139dbeba",
+        "android_client_info": {
+          "package_name": "com.app.fsdramjan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn_z6uc5pauIJhkdIAx0u5g0DfooYDnuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

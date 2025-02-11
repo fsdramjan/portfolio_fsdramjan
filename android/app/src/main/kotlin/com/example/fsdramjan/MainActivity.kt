@@ -1,4 +1,4 @@
-package com.example.fsdramjan
+package com.app.fsdramjan
 
 import io.flutter.embedding.android.FlutterActivity
 
