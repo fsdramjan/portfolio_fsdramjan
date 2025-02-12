@@ -9,7 +9,8 @@ class CardWidget extends StatelessWidget {
   final BorderRadiusGeometry? borderRadius;
   final Widget child;
   final EdgeInsetsGeometry? padding;
-
+  final Color? borderColor;
+  EdgeInsetsGeometry? cardMargin;
   CardWidget({
     required this.child,
     this.padding,
@@ -17,21 +18,26 @@ class CardWidget extends StatelessWidget {
     this.width,
     this.cardColor,
     this.borderRadius,
+    this.borderColor,
+    this.cardMargin,
   });
 
   @override
   Widget build(BuildContext context) {
     return Card(
       color: cardColor ?? Appcolors.primaryColor,
+      margin: cardMargin,
       shape: RoundedRectangleBorder(
-        borderRadius: borderRadius ?? BorderRadius.circular(15),
+        side: BorderSide(color: borderColor ?? Appcolors.grey),
+        borderRadius: borderRadius ?? BorderRadius.circular(20),
       ),
       child: Container(
         height: height,
         width: width,
         decoration: BoxDecoration(
+          border: Border.all(color: borderColor ?? Appcolors.grey),
           color: cardColor ?? Appcolors.primaryColor,
-          borderRadius: borderRadius ?? BorderRadius.circular(15),
+          borderRadius: borderRadius ?? BorderRadius.circular(20),
         ),
         child: Padding(
           padding: padding ?? EdgeInsets.all(10),
