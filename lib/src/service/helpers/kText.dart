@@ -43,7 +43,7 @@ class KText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return SelectableText(
       '$text',
       style: GoogleFonts.poppins(
         decoration: decoration,

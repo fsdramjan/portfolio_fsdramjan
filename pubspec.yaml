@@ -21,6 +21,8 @@ dependencies:
   firebase_storage: 
   carousel_slider:
   google_fonts:  
+  crystal_navigation_bar:  
+  iconly:
 
 
 dev_dependencies:
